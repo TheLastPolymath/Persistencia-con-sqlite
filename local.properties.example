@@ -1,0 +1,7 @@
+# Copia estas tres lineas al final de tu local.properties (ese archivo NO se sube a GitHub).
+# mail.usuario  -> cuenta de Gmail que ENVIA el correo
+# mail.password -> contrasena de aplicacion de 16 caracteres (sin espacios), NO tu clave normal
+# mail.destino  -> correo que RECIBE los comentarios (puede ser el mismo)
+mail.usuario=tucuenta@gmail.com
+mail.password=abcdefghijklmnop
+mail.destino=tucuenta@gmail.com

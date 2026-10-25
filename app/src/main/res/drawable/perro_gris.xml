@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Foto dummy: perro gris con orejas caidas (como "Ronny" en la maqueta).
+     El color de fondo se pone desde el adaptador. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Orejas caidas -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M58,62C34,62 24,104 30,140 44,146 58,128 64,104 68,86 66,70 58,62Z" />
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M142,62C166,62 176,104 170,140 156,146 142,128 136,104 132,86 134,70 142,62Z" />
+    <!-- Cabeza -->
+    <path
+        android:fillColor="#CFD8DC"
+        android:pathData="M48,108a52,52 0,1 1,104 0a52,52 0,1 1,-104 0" />
+    <!-- Mancha en el ojo -->
+    <path
+        android:fillColor="#90A4AE"
+        android:pathData="M106,98a16,14 0,1 1,32 0a16,14 0,1 1,-32 0" />
+    <!-- Hocico -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M72,134a28,26 0,1 1,56 0a28,26 0,1 1,-56 0" />
+    <!-- Ojos -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M76,100a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+    <path
+        android:fillColor="#212121"
+        android:pathData="M112,100a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+    <!-- Nariz -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M90,120Q100,111 110,120Q100,130 90,120Z" />
+    <!-- Boca -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#212121"
+        android:strokeLineCap="round"
+        android:strokeWidth="3.5"
+        android:pathData="M88,138Q100,146 112,138" />
+</vector>

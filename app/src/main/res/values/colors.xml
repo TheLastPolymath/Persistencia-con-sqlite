@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta de la maqueta: turquesa + naranja -->
+    <color name="colorPrimary">#00ACC1</color>
+    <color name="colorPrimaryDark">#00838F</color>
+    <color name="colorAccent">#FF5722</color>
+
+    <color name="fondo_pantalla">#FAFAFA</color>
+    <color name="texto_principal">#212121</color>
+    <color name="texto_secundario">#616161</color>
+    <color name="divisor">#BDBDBD</color>
+
+    <!-- Fondos de las fotos dummy -->
+    <color name="fondo_rosa">#FF6FA5</color>
+    <color name="fondo_azul">#1E88E5</color>
+    <color name="fondo_verde">#43A047</color>
+    <color name="fondo_morado">#8E24AA</color>
+    <color name="fondo_ambar">#FFA000</color>
+    <color name="fondo_rojo">#E53935</color>
+    <color name="fondo_teal">#26A69A</color>
+</resources>

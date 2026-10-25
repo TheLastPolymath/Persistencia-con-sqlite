@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_pantalla"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_simple" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvFavoritas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingVertical="4dp" />
+
+        <!-- Se muestra cuando la tabla mascota todavia esta vacia -->
+        <TextView
+            android:id="@+id/tvSinFavoritas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawablePadding="12dp"
+            android:gravity="center"
+            android:padding="32dp"
+            android:text="@string/favoritos_vacio"
+            android:textColor="@color/texto_secundario"
+            android:textSize="16sp"
+            android:visibility="gone"
+            android:drawableTop="@drawable/ic_bone_blanco" />
+    </FrameLayout>
+
+</LinearLayout>

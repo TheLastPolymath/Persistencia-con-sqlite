@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Foto dummy: perro cafe con orejas oscuras (como "Catty" en la maqueta).
+     El color de fondo se pone desde el adaptador. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Orejas -->
+    <path
+        android:fillColor="#424242"
+        android:pathData="M48,52C26,56 22,108 38,122 50,114 60,82 60,60 58,54 54,51 48,52Z" />
+    <path
+        android:fillColor="#424242"
+        android:pathData="M152,52C174,56 178,108 162,122 150,114 140,82 140,60 142,54 146,51 152,52Z" />
+    <!-- Cabeza -->
+    <path
+        android:fillColor="#F4BE88"
+        android:pathData="M45,108a55,55 0,1 1,110 0a55,55 0,1 1,-110 0" />
+    <!-- Hocico -->
+    <path
+        android:fillColor="#FBE0C3"
+        android:pathData="M70,134a30,30 0,1 1,60 0a30,30 0,1 1,-60 0" />
+    <!-- Ojos -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M74,100a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+    <path
+        android:fillColor="#212121"
+        android:pathData="M114,100a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+    <!-- Nariz -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M90,118Q100,110 110,118Q100,128 90,118Z" />
+    <!-- Boca -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#212121"
+        android:strokeLineCap="round"
+        android:strokeWidth="3.5"
+        android:pathData="M86,136Q100,148 114,136" />
+</vector>

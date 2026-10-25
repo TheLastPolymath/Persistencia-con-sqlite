@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cara de perro para la pestana de Perfil -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Orejas -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M5.2,3.5C3,3.8 1.8,7.5 2.6,10.8 3.4,11.6 4.6,11 5,9.8 5.5,8.2 6.4,6.6 7,5.6 6.7,4.3 6.1,3.4 5.2,3.5z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M18.8,3.5C21,3.8 22.2,7.5 21.4,10.8 20.6,11.6 19.4,11 19,9.8 18.5,8.2 17.6,6.6 17,5.6 17.3,4.3 17.9,3.4 18.8,3.5z" />
+    <!-- Cabeza con ojos y nariz recortados (evenOdd) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M12,13.5m-7,0a7,7 0,1 1,14 0a7,7 0,1 1,-14 0M9.3,11.8m-1,0a1,1 0,1 0,2 0a1,1 0,1 0,-2 0M14.7,11.8m-1,0a1,1 0,1 0,2 0a1,1 0,1 0,-2 0M10.6,15.2L13.4,15.2 12,16.8z" />
+</vector>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Petagram</string>
+
+    <!-- Menu de opciones -->
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_acerca_de">Acerca de</string>
+    <string name="titulo_favoritos">Favoritos</string>
+    <string name="subtitulo_favoritos">Últimas 5 mascotas con rating</string>
+    <string name="favoritos_vacio">Todavía no le has dado rating a ninguna mascota. Toca el hueso blanco de una foto para empezar.</string>
+
+    <!-- Pestañas -->
+    <string name="tab_inicio">Inicio</string>
+    <string name="tab_perfil">Perfil</string>
+
+    <!-- Tarjetas -->
+    <string name="foto_mascota">Foto de la mascota</string>
+    <string name="foto_perfil">Foto de perfil</string>
+    <string name="dar_raiting">Dar un rait</string>
+    <string name="raiting">Raits</string>
+    <string name="raiting_dado">Le diste un hueso a %1$s</string>
+    <string name="camara">Cámara</string>
+    <string name="camara_proximamente">La cámara estará disponible pronto</string>
+
+    <!-- Contacto -->
+    <string name="contacto_titulo">Escríbenos</string>
+    <string name="contacto_subtitulo">Déjanos tus comentarios y te responderemos al correo que indiques.</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_correo">Correo electrónico</string>
+    <string name="hint_mensaje">Mensaje</string>
+    <string name="enviar_comentario">Enviar comentario</string>
+    <string name="error_nombre">Escribe tu nombre</string>
+    <string name="error_correo">Escribe un correo válido</string>
+    <string name="error_mensaje">Escribe tu mensaje</string>
+    <string name="error_configuracion">Falta configurar mail.usuario y mail.password en local.properties</string>
+    <string name="envio_exitoso">Comentario enviado. Gracias por escribirnos.</string>
+    <string name="envio_fallido">No se pudo enviar el comentario: %1$s</string>
+
+    <!-- Acerca de (edita estos textos con tu información) -->
+    <string name="foto_desarrollador">Foto del desarrollador</string>
+    <string name="dev_nombre">TheLastPolymath</string>
+    <string name="dev_rol">Desarrollador Android</string>
+    <string name="dev_bio_titulo">Bio</string>
+    <string name="dev_bio">Estudiante de Ingeniería de Sistemas con interés en el desarrollo móvil y el análisis de datos. Petagram es un proyecto del curso de desarrollo de aplicaciones Android, construido en Java con Material Design, RecyclerView, Fragments y ViewPager. Me gusta convertir problemas cotidianos en aplicaciones sencillas y útiles.</string>
+    <string name="dev_contacto_titulo">Dónde encontrarme</string>
+    <string name="dev_github">https://github.com/TheLastPolymath</string>
+    <string name="version_app">Petagram versión %1$s</string>
+</resources>
